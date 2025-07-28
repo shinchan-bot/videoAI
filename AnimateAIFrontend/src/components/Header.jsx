@@ -3,7 +3,7 @@ import { Play, X, Sparkles, Menu } from 'lucide-react';
 import Button from './ui/button'
 
 const Header = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     return (
         <header className=" sticky top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200/20">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
